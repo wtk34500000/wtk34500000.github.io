@@ -1,0 +1,40 @@
+.footer {
+    background-image: url("../../images/footerbg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.footer .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 40vh;
+}
+
+.footer .overlay .social-media {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    position: relative;
+}
+
+.footer .overlay .social-media .fa-linkedin,
+.footer .overlay .social-media .fa-facebook-f,
+.footer .overlay .social-media .fa-github,
+.footer .overlay .social-media .fa-envelope {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer .overlay .copyright {
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0);
+}
+
+.footer .overlay .copyright p {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
