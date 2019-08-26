@@ -1,40 +1,61 @@
 .footer {
-    background-image: url("../../images/footerbg.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
+  background-image: url('../../images/footerbg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
 }
 
 .footer .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 40vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 40vh;
 }
 
 .footer .overlay .social-media {
-    display: flex;
-    justify-content: center;
-    top: 50%;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  position: relative;
 }
 
 .footer .overlay .social-media .fa-linkedin,
 .footer .overlay .social-media .fa-facebook-f,
 .footer .overlay .social-media .fa-github,
 .footer .overlay .social-media .fa-envelope {
-    color: white;
-    margin: 0 10px;
+  color: white;
+  margin: 0 10px;
 }
 
 .footer .overlay .copyright {
-    top: 50%;
-    left: 50%;
-    position: relative;
-    transform: translate(-50%, 0);
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
 }
 
 .footer .overlay .copyright p {
-    color: white;
-    padding-top: 40px;
-    text-align: center;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* 
+
+*/
+.img-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 3, 5, 0.151);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.article1:hover .img-description {
+  visibility: visible;
+  opacity: 1;
 }
