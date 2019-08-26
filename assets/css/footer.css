@@ -78,6 +78,57 @@
   color: white;
 }
 
+.bio-img {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+.bio-detail {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+.bio-button {
+  animation-name: moveInTop;
+  animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
