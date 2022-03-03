@@ -2222,6 +2222,11 @@ input, select, textarea {
 					margin: 0 auto 2em auto;
 				}
 
+			.image img {
+				width: 70%;
+				margin: auto;
+			}
+
 	}
 
 /* Small */
